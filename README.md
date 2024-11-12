@@ -59,7 +59,7 @@ Este proyecto usa Excel para Mac en la versión 16.90.2 (24102719)
 
 - **Preferencias del cliente**: Existe una clara inclinación hacia los productos "Low Fat," lo cual podría ser aprovechado para futuras estrategias de marketing.
 
-- **Datos adicionales**: Algunos campos, como el peso de los productos, parecen irrelevantes en este contexto, pero podrían ser útiles en un análisis futuro.
+- **Datos adicionales**: Algunos campos, como el peso de los productos, parecen irrelevantes en este contexto, pero podrían ser útiles en un análisis futuro si son acompañados de otros datos para poder complementarlos.
 
 ## 🔄 Próximos Pasos
 
