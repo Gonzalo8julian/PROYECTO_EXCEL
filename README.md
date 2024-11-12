@@ -5,10 +5,9 @@ El primer punto a tratar en este análisis es que la base de datos dada no tiene
 
 Para ello nos hemos centrado en analizar cómo se comporta cada tipo de tienda (Grocery Store, Supermarket Type 1, Type 2 y Type 3) en base a dos dashboards:
 
-1. **Su relación con el tamaño de la población y el tamaño de la tienda:**
-Donde podremos ver una imagen general de la compañía y sabremos si se vende más en ciudades más grandes o más pequeñas y si las tiendas más grandes venden más que las pequeñas.
+1. **Análisis de tiendas por tamaño y ubicación**: Exploramos el rendimiento de los tipos de tienda en función del tamaño de la población y la tienda, con el objetivo de identificar patrones de ventas según estas variables.
 
-2. **Su relación con los productos vendidos según el tipo de producto y sus características alimenticias**: Aquí podremos tener una visión global de los productos más vendidos en cada tienda y las ventas en función de sus características nutricionales (Low Fat o Regular).
+2. **Análisis de ventas por tipo de producto y atributos nutricionales**: Examinamos la popularidad de distintos productos y su relación con atributos como "Low Fat" o "Regular", para comprender las preferencias de los clientes.
 
 Aunque este análisis es muy descriptivo y general de la compañía, nos va a ayudar a sacar algunas conclusiones importantes tanto para las futuras recopilaciones de datos de la compañía, como para intentar implementar acciones de cara al futuro para la mejora de la empresa.
 
@@ -32,44 +31,43 @@ Este proyecto usa Excel para Mac en la versión 16.90.2 (24102719)
 #### 🌃 ANÁLISIS DE CADA TIPO DE TIENDA EN RELACIÓN A SU TAMAÑO Y AL TAMAÑO DE LA POBLACIÓN
     DASHBOARD 1
 
-- A nivel general de la compañía, **el tamaño de la población NO es un factor muy relevante para las ventas**. Siendo las ubicaciones con mayor población las que más productos venden y más ingresos generan.
+- **Población y ventas**: A nivel general de la compañía, **el tamaño de la población NO es un factor muy relevante para las ventas**. Siendo las ubicaciones con mayor población las que más productos venden y más ingresos generan.
 
-- En base al tamaño de cada tienda, podemos afirmar que **las tiendas más grandes son las que menos productos venden y menos ingresos generan**.
+- **Tamaño de tienda y ventas**: Las tiendas más grandes son las que menos productos venden en comparación con las pequeñas y medianas.
 
-- El total de productos vendidos en **Supermarkets Type 1 es casi 2 veces más grande que en el resto de tipos de tienda juntos** (5.579 vs 2.947).
+- **Tipos de tienda y ventas**:
 
-- Las tiendas **Grocery Store** solo están ubicadas en ubicaciones con mucha o con poca población, nunca con una **población media** (Tier 2).
+    - Las tiendas de tipo Supermarket Type 1 tienen casi el doble de ventas que el resto de tiendas juntas (5.579 vs 2.947).
 
-- Las tiendas **Supermarket Type 2 y 3** solo están en ubicaciones con **grandes poblaciones** (Tier 3).
+    - Las tiendas **Grocery Store** solo están ubicadas en ubicaciones con mucha o con poca población, nunca con una **población media** (Tier 2).
+
+    - Las tiendas **Supermarket Type 2 y 3** solo están en ubicaciones con **grandes poblaciones** (Tier 3).
 
 #### 🛍️ ANÁLISIS DEL TIPO DE PRODUCTO Y DE SUS CARACTERÍSTICAS NUTRICIONALES VENDIDO EN CADA TIENDA 
     DASHBOARD 2
 
-- **Los 3 productos más vendidos** en **todas** las tiendas son: frutas y verduras, snacks y productos para el hogar. 
+- **Productos más vendidos**:
+    - Los 3 productos más vendidos en todas las tiendas son: frutas y verduras, snacks y productos para el hogar.
 
-- En el top 10 de productos más vendidos, **todos los produdctos se venden en todas las tiendas**. 
+    - En el top 10 de productos más vendidos, **todos los produdctos se venden en todas las tiendas**. 
 
-- Los productos más vendidos en general son los **''Low Fat''** con **casi el doble de ventas** en cada tienda frente a los productos ''Regular''.
+- **Características nutriconales**: Los productos con la etiqueta "Low Fat" representan casi el doble de las ventas en comparación con los productos "Regular" en cada tienda.
 
 ### 2. CONCLUSIONES
 
-1. Teniendo en cuenta lo poco representativos que son los datos, la situación de la compañía aparentemente es buena. Se vende en ciudades más grandes y tienen ingresos que superan el millón de euros.
+- **Rendimiento de Supermarket Type 1**: Estos supermercados son clave para el negocio, generando la mayor parte de las ventas.
 
-2. El grueso de ventas viene dado gracias a los Supermarket Type 1. Además, están en todos los tipos de ubicaciones y son los que más ingresos generan.
+- **Preferencias del cliente**: Existe una clara inclinación hacia los productos "Low Fat," lo cual podría ser aprovechado para futuras estrategias de marketing.
 
-3. Los productos "Low Fat" se venden mucho más que los productos "Regular".
-
-4. Hay muchos datos irrelevantes en el conjunto de datos que se pueden estudiar para valorar si merece la pena recopilarlos o no.
-
-5. Este conjunto de datos sin tener un periodo de tiempo especificado, puede ser muy confuso ya que no podemos sacar conclusiones reales. Todo depende de ese periodo para saber si la situación de la compañía es positiva o negativa.
+- **Datos adicionales**: Algunos campos, como el peso de los productos, parecen irrelevantes en este contexto, pero podrían ser útiles en un análisis futuro.
 
 ## 🔄 Próximos Pasos
 
-1. El primer paso es intentar recopilar una serie de datos más representativos, empezando por un periodo de tiempo específico para poder contrastar todas las conclusiones obtenidas.
+1. **Ampliar la recolección de datos**: Recopilar datos en periodos de tiempo específicos para obtener análisis más precisos y detectar tendencias estacionales.
 
-2. Sería muy interesante analizar el coste que supone mantener las tiendas Grocery Store, Supermarket Type 2 y Type 3, ya que los ingresos que generan son muy bajos en comparación con los Supermarket Type 1 y podrían estar generando problemas en la compañía.
+2. **Reevaluar el portafolio de tiendas**: Evaluar el costo-beneficio de mantener los tipos de tienda menos rentables, como "Grocery Store" y "Supermarket Type 2 y 3".
 
-3. Valorar la inversión en los Supermarket Type 1 en más ubicaciones para intentar aumentar los ingresos de la empresa.
+3. **Potenciar los Supermarket Type 1**: Considerar la expansión de este tipo de tienda en áreas con demanda similar para aumentar los ingresos.
 
 ## ✒️ Autor
 - **Gonzalo Julián** - [@gonzalo8julian](https://github.com/Gonzalo8julian)
