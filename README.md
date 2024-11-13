@@ -1,7 +1,9 @@
 # 🛒💰 ANÁLISIS DE SUPERMERCADO: CARACTERÍSTICAS Y DESEMPEÑO DE VENTAS 🛒💰
 
 ## 📖 Descripción
-El primer punto a tratar en este análisis es que la base de datos dada no tiene un conjunto de datos 100% fiable y reseñable, por lo que los datos aportados no son muy significativos para poder hacer un análisis exhaustivo o, incluso, encontrar algún problema de manera clara. Es por ello por lo que nos hemos centrado en hacer un análisis general de la situación de la compañía.
+Este proyecto engloba los datos recopilados por una empresa de supermercados. En la base de datos, podemos encontrar algunos datos como ID de roducto, características y tipo de productos, peso, rating.
+
+Uno de los puntos más importantes a tratar en este análisis es que la base de datos dada no tiene un conjunto de datos 100% fiable y reseñable, por lo que los datos aportados no son muy significativos para poder hacer un análisis exhaustivo o, incluso, encontrar algún problema de manera clara. Es por ello por lo que nos hemos centrado en hacer un análisis general de la situación de la compañía.
 
 Para ello nos hemos centrado en analizar cómo se comporta cada tipo de tienda (Grocery Store, Supermarket Type 1, Type 2 y Type 3) en base a dos dashboards:
 
